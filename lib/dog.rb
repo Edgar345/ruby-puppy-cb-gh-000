@@ -7,7 +7,12 @@ class Dog
     @@all << self
   end
 
-  #class method(static method)
+  # instance method
+  def save
+    @@all << self
+  end
+
+  # class method(static method)
   def self.all
     @@all
   end
